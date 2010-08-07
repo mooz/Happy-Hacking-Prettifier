@@ -42,9 +42,9 @@ h1 {
     text-shadow    : 0 0 4px #b1b1b1;
 }
 
-h2 {
+#subtitle > * {
     font-weight : normal;
-    font-size   : 130%;
+    font-size   : 120%;
     font-family : "Gill Sans", Helvetica, Arial, sans-serif;
     text-align  : center;
     color       : #849eaa;
