@@ -43,6 +43,7 @@ h1 {
 }
 
 #subtitle > * {
+    margin      : 3px auto;
     font-weight : normal;
     font-size   : 120%;
     font-family : "Gill Sans", Helvetica, Arial, sans-serif;
