@@ -16,8 +16,8 @@ Tokenizer.prototype = {
         ["Reserved"          , /^(?:break|case|catch|continue|default|delete|do|else|finally|for|function|if|in|instanceof|new|return|switch|this|throw|try|typeof|var|void|while|with)(?=[^a-z])/],
         ["RegExp"            , /^\/(?:\[(?:\\\]|[^\]])+\]|\\\/|[^/\n\r])+\/[gimy]*/],
         ["Identifier"        , /^[a-zA-Z_$][a-zA-Z0-9_$]*/],
-        ["Float"             , /^(?:\+|-)?[0-9]?\.[0-9]+(?:e[0-9]+)?/],
-        ["Integer"           , /^(?:\+|-)?[0-9]+?/],
+        ["Float"             , /^[0-9]?\.[0-9]+(?:e[0-9]+)?/],
+        ["Integer"           , /^[0-9]+/],
         ["String"            , /^("|')(?:\\\1|[^\1\n\r])*?\1/],
         ["Punctuator"        , /^(?:\{|\}|\(|\)|\[|\]|\.|;|,|<|>|<=|>=|==|!=|===|!==|\+|-|\*|%|\+\+|--|<<|>>|>>>|&|\||\^|!|~|&&|\|\||\?|:|=|\+=|-=|\*=|%=|<<=|>>=|>>>=|&=|\|=|^=|\/=|\/)/]
     ],
